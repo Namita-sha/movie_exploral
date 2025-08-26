@@ -31,8 +31,6 @@ Tech Stack
 
 Frontend: React, Vite, TailwindCSS
 
-Backend (optional): Appwrite / any API
-
 Linting: ESLint
 
 Version Control: Git & GitHub
@@ -42,7 +40,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/Namita-sha/movie_exploral.git
-cd movie_exploral
+cd movie-app
 
 
 Install dependencies:
@@ -62,13 +60,8 @@ Usage
 
 Search for movies using the search bar
 
-Click on a movie card for more info (if implemented)
 
-Add your own movies or API integration
-
-Environment Variables
-
-Create a .env file for API keys or backend credentials. Example:
+Create a .env file for API keys. Example:
 
 VITE_API_KEY=your_api_key_here
 VITE_API_URL=https://api.example.com
